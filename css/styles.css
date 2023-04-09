@@ -1,6 +1,7 @@
 body {
     margin: 0;
     text-align: center;
+    color: ;
 }
 
 h1 {
@@ -60,11 +61,6 @@ h3 {
     margin-right: 30px;
 }
 
-.profile img {
-    width: 10%;
-    padding-top: 50px;
-}
-
 .profile p {
     color: #40514E;
 }
@@ -114,4 +110,26 @@ h3 {
     margin: 0 auto 0 auto;
     padding-top: 20px;
     padding-bottom: 20px;
+  }
+
+  hr {
+    border: 1px dotted;
+    width: 1%;
+    opacity: 50%;
+  }
+
+  .profile {
+    width: 50%;
+    margin: 50px auto;
+    text-align: left;
+  }
+
+  .profile h2 {
+    text-align: left;
+  }
+
+  .profile img {
+    float: right;
+    width: 20%;
+    padding: 0;
   }
