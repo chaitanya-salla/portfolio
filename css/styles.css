@@ -10,6 +10,13 @@ h1 {
     margin: 0 auto;
 }
 
+a {
+  text-decoration: none;
+}
+
+a:hover {
+    color: #EAF6F6;
+}
 h2 {
     font-family: 'Montserrat', sans-serif;
     font-size: 2.5rem;
@@ -102,20 +109,19 @@ h3 {
     margin-top: 30px;
     padding-top: 30px;
     background-color: #66BFBF;
-
+    padding: 20px 0 16px;
   }
 
 
   .bottom-container p {
-    margin: 0 auto 0 auto;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 10px;
   }
 
   hr {
-    border: 1px dotted;
-    width: 1%;
-    opacity: 50%;
+    border: 6px dotted #EAF6F6;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
   }
 
   .profile {
